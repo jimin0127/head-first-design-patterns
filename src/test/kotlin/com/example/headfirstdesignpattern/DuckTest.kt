@@ -1,5 +1,8 @@
-package com.example.headfirstdesignpattern.`1-duck`
+package com.example.headfirstdesignpattern
 
+import com.example.headfirstdesignpattern.`1-duck`.FlyRocketPowered
+import com.example.headfirstdesignpattern.`1-duck`.MallardDuck
+import com.example.headfirstdesignpattern.`1-duck`.ModelDuck
 import org.junit.jupiter.api.Test
 
 class DuckTest {
