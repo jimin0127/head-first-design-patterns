@@ -10,4 +10,13 @@ class DuckTest {
         mallard.performQuack()
         mallard.performFly()
     }
+
+    @Test
+    fun `동적으로 실행하기`() {
+        // 실행 중에 오리의 행동을 바꾸고 싶으면 원하는 행동에 해당하는 Duck의 세터 메소드 호출
+        val model = ModelDuck()
+        model.performFly()
+        model.setFlyBehavior(FlyRocketPowered())
+        model.performFly()
+    }
 }
